@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+   html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, yellowgreen, black);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+    img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 150px;
+} 
+    </style>
+</head>
+<body>
+    <header class="header">
+            <div class="waviy">
+                <span style="--i:1">S</span>
+                <span style="--i:2">R</span>
+                <span style="--i:3">U</span>
+                <span style="--i:4">S</span>
+                <span style="--i:5">H</span>
+                <span style="--i:6">T</span>
+                <span style="--i:7">I</span>
+                <span style="--i:8">.</span>
+             </div>
+    
+        <nav class="navbar">
+            <a href="#" class="active"> Home</a> 
+            <a href="#">About</a>
+            <a href="#">Project</a>
+            <a href="#">Contact </a>
+        </nav>
+    </header>
+    <img src="images/pic.jpg" width="150px" class="center">
+    
+    
+    <section id="about">
+        <h2 style="text-align: center;">About Me</h2>
+        <p style="text-align: center;">I am a full stack developer with experience in building web applications using technologies like HTML, CSS, JavaScript, and backend languages like Node.js, Python, and more.</p>
+    </section>
+    <br><br>
+    <section class="skills">
+        <br><br>
+        <h2 style="text-align: center;">Skills</h2>
+    <p style="text-align: center;">
+        HTML,
+        css,
+        Python,
+        SQL,
+
+    </p>
+    </section>
+    
+    <section style="text-align: center;" id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+            <a href="pro1.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+            <a href="pro1.html">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Srushti Patil</p>
+    </footer>
+    
+
+    </section>
+
+    
+</body>
+</html>
